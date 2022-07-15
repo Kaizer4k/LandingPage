@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Middle Part / Pictures with text */
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.box1 h1 {
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+.item {
+    border-radius: 10px;
+    border: 4px solid rgb(62, 62, 255);
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+/* Middle Part 2 / quoute text */
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 400px;
+}
+
+#qoute {
+    font-size: 20px;
+    font-style: italic;
+}
