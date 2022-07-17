@@ -13,48 +13,107 @@ html, body, div, img {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #1f2937;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
 }
 
-/* Middle Part / Pictures with text */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #1f2937;
+}
+
+
+/* below header rotating news */
 
 .box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: #1f2937;
+}
+
+.left {
+    text-align: center;
+    color: white;
+}
+
+.right {
+    flex: auto;
+    border-radius: 10px;
+    border: 4px solid blue;
+}
+
+/* BOX2 / Pictures with text */
+
+.box2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    padding: 3em;
 }
+
 .box1 h1 {
     font-weight: bolder;
 }
 
 .container {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
 }
 
-.item img {
-    width: 100%;
-    height: 100%;
-}
 .item {
     border-radius: 10px;
     border: 4px solid rgb(62, 62, 255);
-    margin: 10px;
-    width: 250px;
-    height: 250px;
 }
 
-/* Middle Part 2 / quoute text */
+/* BOX3 / Middle part / qoute */
 
-.box2 {
+.box3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
-    height: 400px;
+    background-color: #e5e7eb;
+    padding: 3em;
+    /* height: 400px; */
 }
 
 #qoute {
-    font-size: 20px;
+    font-size: 36px;
     font-style: italic;
+    color: #1f2937
+}
+
+
+/* BOX4 / above footer */
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.signup {
+    background-color: #3882f6;
+    text-align: center;
 }
